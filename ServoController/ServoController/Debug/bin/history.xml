@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.4.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=ServoController.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\ServoController -TC:\CooCox\CoIDE\configuration\ProgramData\ServoController/arm-gcc-link.ld -g">
+      <target file="ServoController.elf" lastModified="1479cf76e3b">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="1479c9ae60f"/>
+         <source file="..\obj\main.o" lastModified="1479cf76aa0"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="1479c9ae7db"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="1479c9ae8ed"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="1479c9aea11"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="1479c9aeba5"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="1479c9aecad"/>
+      </target>
+   </processor>
+</history>

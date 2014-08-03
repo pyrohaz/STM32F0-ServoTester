@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\ServoController\stm32_lib\inc -I..\..\..\workspace\ServoController\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\ServoController\cmsis_core -I..\..\..\workspace\ServoController -I..\..\..\workspace\ServoController\stm32_lib">
+      <target file="stm32f0xx_gpio.o" lastModified="1479c9aea11">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="1479c8da1c0"/>
+      </target>
+      <target file="stm32f0xx_tim.o" lastModified="1479c9aeba5">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_tim.c" lastModified="1479c8db68c"/>
+      </target>
+      <target file="stm32f0xx_misc.o" lastModified="1479c9aecad">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_misc.c" lastModified="1479c8daeb9"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="1479c9ae60f">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="1479c8da1ca"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="1479c9ae8ed">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="1479c8da1e9"/>
+      </target>
+      <target file="main.o" lastModified="1479cf76aa0">
+         <source file="..\..\..\main.c" lastModified="1479cf76713"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="1479c9ae7db">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="1479c8da1e0"/>
+      </target>
+   </processor>
+</history>
